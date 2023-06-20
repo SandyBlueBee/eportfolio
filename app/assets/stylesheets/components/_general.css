@@ -26,9 +26,12 @@ section {
   /* filter: saturate(30%) */
 }
 
-.flex-column {
+.flex {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
 }
