@@ -17,3 +17,7 @@
 @import "components/fonts";
 @import "components/media";
 @import "components/nav";
+@import "components/buttons";
+@import "components/wrappers";
+
+@import "font-awesome";
