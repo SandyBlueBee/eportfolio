@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: #131313;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-section {
+  background: none;
+}
+
+.space-background {
+  background-image: url('space.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: -1;
+  /* filter: saturate(30%) */
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
