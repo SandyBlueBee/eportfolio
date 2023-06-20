@@ -2,3 +2,18 @@
   height: 30vh;
   margin: 5%;
 }
+
+.window {
+  background: linear-gradient(0deg, rgba(255,255,255,0.1) 0%, rgba(187,227,242,0) 21%, rgba(152,212,234,0) 86%, rgba(252,252,252,0.1) 100%);
+}
+
+.profile {
+  height: 40vh;
+  width: 30%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 20px solid #131313;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}

@@ -1,0 +1,26 @@
+.about-me-wrapper {
+  position: relative;
+  width: 50vw;
+  height: 60vh;
+  margin-top: 50px;
+}
+
+.about-me-wrapper .description {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 70%;
+  height: 80%;
+  padding: 20px 30px;
+  background-color: #677B83;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+}
+
+.about-me-wrapper .description p {
+  width: 80%;
+  line-height: 1.75rem;
+}

@@ -6,6 +6,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3, h4, h5, h6, p {
+  color: #131313;
+}
+
+.light-font {
   color: #F5EEE6;
 }
 
@@ -15,4 +19,8 @@ h1 {
 
 h2 {
   font-size: 2rem;
+}
+
+p {
+  font-family: 'Montserrat Alternates', sans-serif;
 }
