@@ -17,3 +17,12 @@
   top: 0px;
   right: 0px;
 }
+
+.tyler {
+  position: absolute;
+  bottom: -50px;
+  right: 100px;
+  height: 150px;
+  transform: rotate(340deg);
+  filter: contrast(134%) saturate(45%);
+}
