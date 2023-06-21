@@ -20,9 +20,18 @@
 
 .tyler {
   position: absolute;
-  bottom: -50px;
+  bottom: -80px;
   right: 100px;
   height: 150px;
   transform: rotate(340deg);
-  filter: contrast(134%) saturate(45%);
+  filter: contrast(134%) saturate(85%);
+}
+
+.map {
+  background-image: url("world-map.png");
+  height: 400px;
+  width: 650px;
+  border: 20px solid #131313;
+  border-radius: 10px 0px 0px 10px;
+  background-size: 100% 100%;
 }

@@ -62,3 +62,10 @@
 .button-bar img {
   height: 40px;
 }
+
+.map-wrapper {
+  width: 80vw;
+  height: 440px;
+  background-color: #677B83;
+  border-radius: 10px;
+}
