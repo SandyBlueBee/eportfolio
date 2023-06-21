@@ -43,6 +43,7 @@
   border: none;
   box-shadow: 0px 5px #185D77;
   border-radius: 50%;
+  padding: 5px;
 }
 
 .about-me-button:active {
@@ -57,6 +58,7 @@
   padding-top: 15px;
   border-radius: 50%;
   box-shadow: 0px 0px 2px 1px #BBE3F2;
+  height: object-fit;
 }
 
 .button-bar img {
@@ -68,4 +70,31 @@
   height: 440px;
   background-color: #677B83;
   border-radius: 10px;
+  display: flex;
+}
+
+.work-experience-content {
+  padding: 30px 20px;
+  width: 100%;
+  max-width: 50%;
+}
+
+.work-experience {
+  width: 80%;
+  border: 2px solid #BBE3F2;
+  box-shadow: 0px 0px 2px 1px #BBE3F2;
+  padding: 10px;
+  border-radius: 10px;
+  background: #A4B3B7;
+  margin-top: 10px;
+}
+
+.work-experience p {
+  width: 100%;
+  max-width: 500px;
+}
+
+.usa-content {
+  width: 100%;
+  /* display: none; */
 }

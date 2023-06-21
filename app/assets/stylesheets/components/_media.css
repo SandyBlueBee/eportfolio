@@ -30,8 +30,47 @@
 .map {
   background-image: url("world-map.png");
   height: 400px;
-  width: 650px;
+  width: 650px !important;
   border: 20px solid #131313;
   border-radius: 10px 0px 0px 10px;
   background-size: 100% 100%;
+  position: relative;
+}
+
+.pin {
+  height: 20px;
+  position: absolute;
+  transition: all 0.3;
+  transform-origin: center;
+}
+
+.pin-usa {
+  top: 137px;
+  left: 26.5%;
+}
+
+.pin-france {
+  top: 127px;
+  left: 49%;
+}
+
+.pin-germany {
+  top: 107px;
+  left: 51%;
+}
+
+.pin-russia {
+  top: 85px;
+  left: 57%;
+}
+
+.pin-greece {
+  top: 145px;
+  left: 54%;
+}
+
+.pin-usa:hover + .usa-content {
+  .usa-content {
+    display: block;
+  }
 }
