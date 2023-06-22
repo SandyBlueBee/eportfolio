@@ -79,6 +79,11 @@
   max-width: 50%;
 }
 
+.content-scroll {
+  height: 80%;
+  /* overflow: scroll; */
+}
+
 .work-experience {
   width: 80%;
   border: 2px solid #BBE3F2;
