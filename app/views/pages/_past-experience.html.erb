@@ -1,20 +1,50 @@
 <section class="flex-column">
   <div>
     <h2>Past experience</h2>
-    <div class="map-wrapper">
+    <div class="map-wrapper" data-controller="map">
       <div class="map">
-        <%= image_tag "pin.png", class: "pin pin-usa" %>
-        <%= image_tag "pin.png", class: "pin pin-france" %>
-        <%= image_tag "pin.png", class: "pin pin-germany" %>
-        <%= image_tag "pin.png", class: "pin pin-russia" %>
-        <%= image_tag "pin.png", class: "pin pin-greece" %>
+        <div data-action="click->map#showUSA"><%= image_tag "pin.png", class: "pin pin-usa"%></div>
+        <div data-action="click->map#showFrance"><%= image_tag "pin.png", class: "pin pin-france"%></div>
+        <div data-action="click->map#showGermany"><%= image_tag "pin.png", class: "pin pin-germany"%></div>
+        <div data-action="click->map#showRussia"><%= image_tag "pin.png", class: "pin pin-russia"%></div>
+        <div data-action="click->map#showGreece"><%= image_tag "pin.png",  class: "pin pin-greece"%></div>
       </div>
       <div class="work-experience-content">
-        <div class="usa-content">
+        <div class="usa-content" data-map-target="usa">
           <h3>Middleborough, MA - USA</h3>
           <div class="work-experience">
             <h4>Middleborough High School</h4>
             <p>After completing the majority of my education in France, I attended Middleborough High School for my junior and senior years, making those years particularly significant. It marked a unique chapter in my academic journey, immersing myself in an American high school experience after an upbringing in the French education system.</p>
+          </div>
+        </div>
+        <div class="france-content" data-map-target="france">
+          <h3>Lyon/St Etienne - FRANCE</h3>
+          <div class="work-experience">
+            <h4>Middleborough High School</h4>
+            <p>After completing the majority of my education in France, I attended Middleborough High School for my junior and senior years, making those years particularly significant. It marked a unique chapter in my academic journey, immersing myself in an American high school experience after an upbringing in the French education system.</p>
+          </div>
+        </div>
+        <div class="germany-content" data-map-target="germany">
+          <h3>Berlin - GERMANY</h3>
+          <div class="work-experience">
+            <h4>Middleborough High School</h4>
+            <p>After completing the majority of my education in France, I attended Middleborough High School for my junior and senior years, making those years particularly significant. It marked a unique chapter in my academic journey, immersing myself in an American high school experience after an upbringing in the French education system.</p>
+          </div>
+        </div>
+        <div class="russia-content" data-map-target="russia">
+          <h3>Saint Petersburg - RUSSIA</h3>
+          <div class="work-experience">
+            <h4>Exchange semester at SPBU</h4>
+            <h5>Winter 2018</h5>
+            <p>After completing the majority of my education in France, I attended Middleborough High School for my junior and senior years, making those years particularly significant. It marked a unique chapter in my academic journey, immersing myself in an American high school experience after an upbringing in the French education system.</p>
+          </div>
+        </div>
+        <div class="greece-content" data-map-target="greece">
+          <h3>Athens - GREECE</h3>
+          <div class="work-experience">
+            <h4>Au Pair</h4>
+            <h5>Summer 2015</h5>
+            <p>During my time as an au pair in Greece, I had the incredible opportunity to immerse myself in a new culture while providing care and guidance to an adorable 18-month-old Greek toddler. For three enriching months, I became an integral part of their family, fostering a nurturing and supportive environment.</p>
           </div>
         </div>
       </div>

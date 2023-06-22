@@ -94,7 +94,7 @@
   max-width: 500px;
 }
 
-.usa-content {
+.usa-content, .france-content, .germany-content, .russia-content, .greece-content {
   width: 100%;
-  /* display: none; */
+  display: none;
 }
