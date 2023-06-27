@@ -1,3 +1,4 @@
+/* about me */
 .about-me-wrapper {
   position: relative;
   width: 50vw;
@@ -11,7 +12,7 @@
   bottom: 0px;
   width: 70%;
   padding: 30px 40px;
-  background-color: var(--medium-color);
+  background-color: var(--light-color);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -65,10 +66,11 @@
   height: 40px;
 }
 
+/* past experience */
 .map-wrapper {
   width: 80vw;
   height: 440px;
-  background-color: var(--medium-color);
+  background-color: var(--light-color);
   border-radius: 10px;
   display: flex;
 }

@@ -1,3 +1,4 @@
+/* Landing space */
 .earth {
   height: 30vh;
   margin: 5%;
@@ -7,6 +8,7 @@
   background: linear-gradient(0deg, rgba(255,255,255,0.1) 0%, rgba(187,227,242,0) 21%, rgba(152,212,234,0) 86%, rgba(252,252,252,0.1) 100%);
 }
 
+/* about me */
 .profile {
   height: 40vh;
   width: 30%;
@@ -27,6 +29,10 @@
   filter: contrast(134%) saturate(85%);
 }
 
+/* my projects */
+
+
+/* past experiences */
 .map {
   background-image: url("world-map.png");
   height: 400px;
