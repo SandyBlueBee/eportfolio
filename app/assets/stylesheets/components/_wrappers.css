@@ -76,7 +76,9 @@
 .work-experience-content {
   padding: 30px 20px;
   width: 100%;
+  height: calc(100% - 80px);
   max-width: 50%;
+  overflow: scroll;
 }
 
 .content-scroll {
