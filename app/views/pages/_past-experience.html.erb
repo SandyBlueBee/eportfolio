@@ -1,4 +1,4 @@
-<section class="flex-column">
+<section class="flex-column" id="past-experience">
   <div>
     <h2>Past experience</h2>
     <div class="map-wrapper" data-controller="map">
@@ -10,6 +10,9 @@
         <div data-action="click->map#showGreece"><%= image_tag "pin.png",  class: "pin pin-greece"%></div>
       </div>
       <div class="work-experience-content">
+        <div data-map-target="blank" class="blank-map">
+          <h3>Click on a location pin to see my experience in that location.</h3>
+        </div>
         <div class="usa-content" data-map-target="usa">
           <h3>Middleborough, MA - USA</h3>
           <div class="work-experience">
