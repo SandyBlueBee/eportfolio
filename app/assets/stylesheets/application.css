@@ -13,12 +13,12 @@
  *= require_tree .
  *= require_self
  */
+@import "components/root";
 @import "components/general";
 @import "components/fonts";
 @import "components/media";
 @import "components/nav";
 @import "components/buttons";
 @import "components/wrappers";
-
 @import "font-awesome";
 @import url('/font-awesome-4.6.3/css/font-awesome.min.css');

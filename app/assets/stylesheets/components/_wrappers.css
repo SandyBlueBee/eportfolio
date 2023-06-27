@@ -11,7 +11,7 @@
   bottom: 0px;
   width: 70%;
   padding: 30px 40px;
-  background-color: #677B83;
+  background-color: var(--medium-color);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -68,7 +68,7 @@
 .map-wrapper {
   width: 80vw;
   height: 440px;
-  background-color: #677B83;
+  background-color: var(--medium-color);
   border-radius: 10px;
   display: flex;
 }
@@ -86,11 +86,11 @@
 
 .work-experience {
   width: 80%;
-  border: 2px solid #BBE3F2;
-  box-shadow: 0px 0px 2px 1px #BBE3F2;
+  /* border: 2px solid #BBE3F2;
+  box-shadow: 0px 0px 2px 1px #BBE3F2; */
   padding: 10px;
   border-radius: 10px;
-  background: #A4B3B7;
+  background: var(--light-color);
   margin-top: 10px;
 }
 

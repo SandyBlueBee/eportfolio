@@ -1,0 +1,13 @@
+:root {
+  /* colors */
+  --very-light-color: #F9F5EB;
+  --light-color: #D1D4D3;
+  --medium-color: #A8B3BA;
+  --primary-color: #131313;
+  --p-color: #131313;
+  --nav-color: #131313;
+
+  /* fonts */
+  --p-font-family: 'Montserrat Alternates', sans-serif;
+  --heading-font-family: 'Rubik Mono One', sans-serif;
+}

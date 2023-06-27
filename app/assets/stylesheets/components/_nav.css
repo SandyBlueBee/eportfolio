@@ -3,7 +3,7 @@ nav {
   position: sticky;
   top: 0px;
   height: 65px;
-  background-color: #131313;
+  background-color: var(--primary-color);
   display: flex;
   justify-content: flex-end;
   align-items: center;

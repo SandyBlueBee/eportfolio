@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&family=Rubik+Mono+One&display=swap');
-
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Rubik Mono One', sans-serif;
+  font-family: var(--heading-font-family) !important;
   font-weight: 200;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-  color: #131313;
+h1, h2, h3, h4, h5, h6 {
+  /* color: #131313; */
+  color: var(--primary-color);
 }
 
 .light-font {
-  color: #F5EEE6;
+  color: var(--very-light-color);
 }
 
 h1 {
@@ -22,5 +21,6 @@ h2 {
 }
 
 p {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: var(--p-font-family);
+  color: var(--p-color);
 }

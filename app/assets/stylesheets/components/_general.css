@@ -4,7 +4,7 @@
 }
 
 section {
-  background-color: #F5EEE6;
+  background-color: var(--very-light-color);
   height: 100vh;
   display: flex;
   justify-content: center;
