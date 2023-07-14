@@ -16,7 +16,7 @@ section {
 }
 
 .space-background {
-  background-image: url('space.jpg');
+  background-image: url('stars.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;

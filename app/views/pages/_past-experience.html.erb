@@ -1,6 +1,6 @@
 <section class="flex-column" id="past-experience">
   <div>
-    <h2>Past experience</h2>
+    <h2><%= t('pastexperience.pastexperience') %></h2>
     <div class="map-wrapper" data-controller="map">
       <div class="map">
         <div data-action="click->map#showUSA"><%= image_tag "pin.png", class: "pin pin-usa"%></div>
@@ -78,4 +78,7 @@
       </div>
     </div>
   </div>
+</section>
+<section>
+  <%= image_tag ("worldmap.svg"), class: "world-map"%>
 </section>

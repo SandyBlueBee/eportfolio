@@ -80,3 +80,11 @@
     display: block;
   }
 }
+
+.world-map {
+  fill: black !important;
+  /* filter:drop-shadow(5px 5px 10px brown) invert(0%); */
+  filter:drop-shadow(5px 5px 5px red) invert(77%) sepia(12%) saturate(489%) hue-rotate(334deg) brightness(82%) contrast(85%);
+
+  width: 800px;
+}

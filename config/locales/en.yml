@@ -30,4 +30,20 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  landingspace:
+    'jobtitle': "Full-stack developer"
+    'tagline' : "Citizen of the world"
+  navbar:
+    "title": "Sandra Yukna - Full-stack developer"
+    "aboutme": "About me"
+    "myprojects": "My projects"
+    "experience": "Previous work experience"
+  aboutme:
+    "aboutme": "About me"
+    "description": "French and American, I thrive to transform ideas into reality. With a BBA (Marketing/Entrepreneurship) in hand, I have a solid foundation of the business world. However, my adventurous spirit and desire for personal growth led me to embrace a new career path as Product Owner. With creativity, curiosity, efficiency, I'm looking forward to my next adventure."
+  myprojects:
+    "myprojects": "My projects"
+  pastexperience:
+    "pastexperience": "Past experience"
+  footer:
+    "tagline": "Currently looking for a new full-stack position."

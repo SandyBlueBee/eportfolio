@@ -1,0 +1,18 @@
+fr:
+  landingspace:
+    'jobtitle': "Dévelopeuse full-stack"
+    'tagline' : "Citoyenne du monde"
+  navbar:
+    "title": "Sandra Yukna - Dévelopeuse full-stack"
+    "aboutme": "A propos"
+    "myprojects": "Mes projects"
+    "experience": "Expériences antérieures"
+  aboutme:
+    "aboutme": "A propos"
+    "description": "French and American, I thrive to transform ideas into reality. With a BBA (Marketing/Entrepreneurship) in hand, I have a solid foundation of the business world. However, my adventurous spirit and desire for personal growth led me to embrace a new career path as Product Owner. With creativity, curiosity, efficiency, I'm looking forward to my next adventure."
+  myprojects:
+    "myprojects": "Mes projects"
+  pastexperience:
+    "pastexperience": "Expériences antérieures"
+  footer:
+    "tagline": "A la recherche d'une nouvelle aventure en tant que developpeuse Full-stack."

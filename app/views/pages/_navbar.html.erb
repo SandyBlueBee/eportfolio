@@ -1,14 +1,17 @@
 <nav>
-  <h3 class="light-font">Sandra Yukna - Product Owner</h3>
+  <h3 class="light-font"><%= t("navbar.title") %></h3>
   <div class="flex" style="gap: 10px">
     <div class="button-light">
-      <a href="#about-me"><button href="#about-me"><h6 class="light-font">about me</h6></button></a>
+      <a href="#about-me"><button href="#about-me"><h6 class="light-font"><%= t('navbar.aboutme') %></h6></button></a>
     </div>
     <div class="button-light">
-      <a href="#projects"><button><h6 class="light-font">my projects</h6></button></a>
+      <a href="#projects"><button><h6 class="light-font"><%= t('navbar.myprojects') %></h6></button></a>
     </div>
     <div class="button-light">
-      <a href="#past-experience"><button><h6 class="light-font">previous work experience</h6></button></a>
+      <a href="#past-experience"><button><h6 class="light-font"><%= t('navbar.experience') %></h6></button></a>
     </div>
+    <%= form_tag(url_for(locale: I18n.locale), method: :get, id: 'locale-form', class: 'form-inline') do %>
+      <%= select_tag(:locale, options_for_select(I18n.available_locales.map { |l| [l, l] }, I18n.locale), onchange: 'document.getElementById("locale-form").submit();') %>
+    <% end %>
   </div>
 </nav>
