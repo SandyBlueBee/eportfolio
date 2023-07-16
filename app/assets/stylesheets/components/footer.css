@@ -2,7 +2,7 @@ footer {
   /* shape and color */
   height: 100px;
   width: 100%;
-  background-color: var(--very-dark-color);
+  background-color: var(--light-color);
   /* position self */
   position: absolute;
   bottom: 0px;

@@ -12,7 +12,7 @@
   bottom: 0px;
   width: 70%;
   padding: 30px 40px;
-  background-color: var(--light-color);
+  background-color: var(--medium-light-color);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@
 
 .about-me-button {
   background: linear-gradient(49deg, rgba(136,206,231,0.5) 0%, rgba(187,227,242,0.5) 66%, rgba(136,206,231,0.5) 93%);
-  color: #F5EEE6;
+  color: var(--very-dark-color);
   position: relative;
   top: -5px;
   height: 50px;

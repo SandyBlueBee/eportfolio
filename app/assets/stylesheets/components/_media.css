@@ -36,8 +36,8 @@
 
 .tyler {
   position: absolute;
-  bottom: -80px;
-  right: 100px;
+  top: 40px;
+  right: 280px;
   height: 150px;
   transform: rotate(340deg);
   filter: contrast(134%) saturate(85%);
@@ -69,6 +69,7 @@
   position: absolute;
   transition: all 0.3;
   transform-origin: center;
+  filter:drop-shadow(inset 2px 2px 5px var(--dark-color));
 }
 
 .pin-usa {
