@@ -1,0 +1,48 @@
+.map-content {
+  width: 40vw;
+  height: 40vh;
+  min-height: 350px;
+}
+
+.country-experience-list {
+  width: 100%;
+  height: 350px;
+  overflow: scroll;
+}
+
+.work-experience {
+  box-sizing: border-box;
+  width: calc(100% - 10px);
+  box-shadow: 5px 5px 10px var(--light-color);
+  padding: 10px;
+  border-radius: 10px;
+  background: var(--light-color);
+  margin-top: 10px;
+}
+
+.work-experience p {
+  width: 100%;
+}
+
+.usa-content, .france-content, .germany-content, .russia-content, .greece-content {
+  width: 100%;
+  display: none;
+}
+
+.blank-map {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (orientation: portrait) {
+  .map-content {
+    height: 40vh;
+    width: 80vw;
+  }
+  .country-experience-list {
+    height: 100%;
+  }
+}

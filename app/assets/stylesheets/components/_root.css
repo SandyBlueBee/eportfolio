@@ -1,11 +1,10 @@
 :root {
   /* colors */
-  --very-light-color: #F9F5EB;
-  --light-color: #D1D4D3;
-  --medium-color: #A8B3BA;
-  --primary-color: #131313;
-  --p-color: #131313;
-  --nav-color: #131313;
+  --primary-color:#B59D92;
+  --light-color: #D0D2D5;
+  --very-light-color: #ECEEF0;
+  --dark-color: #434749;
+  --very-dark-color: #383C3F;
 
   /* fonts */
   --p-font-family: 'Montserrat Alternates', sans-serif;

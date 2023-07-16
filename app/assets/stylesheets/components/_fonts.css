@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, h2, h3, h4, h5, h6 {
   /* color: #131313; */
-  color: var(--primary-color);
+  color: var(--very-dark-color);
 }
 
 .light-font {
@@ -22,5 +22,5 @@ h2 {
 
 p {
   font-family: var(--p-font-family);
-  color: var(--p-color);
+  color: var(--very-dark-color);
 }

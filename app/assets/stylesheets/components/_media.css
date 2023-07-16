@@ -4,8 +4,22 @@
   margin: 5%;
 }
 
+.space-background {
+  background-image: url('stars.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: -1;
+}
+
 .window {
   background: linear-gradient(0deg, rgba(255,255,255,0.1) 0%, rgba(187,227,242,0) 21%, rgba(152,212,234,0) 86%, rgba(252,252,252,0.1) 100%);
+}
+
+.empty-section {
+  background: none;
 }
 
 /* about me */
@@ -13,8 +27,8 @@
   height: 40vh;
   width: 30%;
   object-fit: cover;
-  border-radius: 10px;
-  border: 20px solid #131313;
+  border: 20px solid white;
+  border-bottom: 50px solid white;
   position: absolute;
   top: 0px;
   right: 0px;
@@ -34,13 +48,20 @@
 
 /* past experiences */
 .map {
-  background-image: url("world-map.png");
-  height: 400px;
-  width: 650px !important;
-  border: 20px solid #131313;
+  /* background: linear-gradient(49deg, rgba(136,206,231,0.5) 0%, rgba(187,227,242,0.5) 66%, rgba(136,206,231,0.5) 93%); */
+  height: fit-content;
+  width: 60vw;
+  max-width: 650px;
   border-radius: 10px 0px 0px 10px;
   background-size: 100% 100%;
   position: relative;
+}
+
+.world-map {
+  fill: black !important;
+  filter:drop-shadow(5px 5px 10px var(--light-color)) invert(0%);
+  /* filter:drop-shadow(5px 5px 5px red) invert(77%) sepia(12%) saturate(489%) hue-rotate(334deg) brightness(82%) contrast(85%); */
+  width: 100%;
 }
 
 .pin {
@@ -51,40 +72,26 @@
 }
 
 .pin-usa {
-  top: 137px;
-  left: 26.5%;
+  top: calc(40% - 10px);
+  left: calc(29.2% - 7px);
 }
 
 .pin-france {
-  top: 127px;
-  left: 49%;
+  top: calc(38.5% - 10px);
+  left: calc(49.2% - 7px);
 }
 
 .pin-germany {
-  top: 107px;
-  left: 51%;
+  top: calc(35% - 10px);
+  left: calc(51% - 7px);
 }
 
 .pin-russia {
-  top: 85px;
-  left: 57%;
+  top: calc(30.5% - 10px);
+  left: calc(55.5% - 7px);
 }
 
 .pin-greece {
-  top: 145px;
-  left: 54%;
-}
-
-.pin-usa:hover + .usa-content {
-  .usa-content {
-    display: block;
-  }
-}
-
-.world-map {
-  fill: black !important;
-  /* filter:drop-shadow(5px 5px 10px brown) invert(0%); */
-  filter:drop-shadow(5px 5px 5px red) invert(77%) sepia(12%) saturate(489%) hue-rotate(334deg) brightness(82%) contrast(85%);
-
-  width: 800px;
+  top: calc(42% - 10px);
+  left: calc(54% - 7px);
 }

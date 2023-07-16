@@ -1,6 +1,14 @@
 footer {
+  /* shape and color */
   height: 100px;
-  background-color: var(--primary-color);
+  width: 100%;
+  background-color: var(--very-dark-color);
+  /* position self */
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  box-sizing: border-box;
+  /* position children */
   display: flex;
   justify-content: space-between;
   padding: 0% 30px;

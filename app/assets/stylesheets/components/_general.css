@@ -11,20 +11,6 @@ section {
   align-items: center;
 }
 
-.empty-section {
-  background: none;
-}
-
-.space-background {
-  background-image: url('stars.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: fixed;
-  top: 0px;
-  width: 100%;
-  z-index: -1;
-}
-
 .flex {
   display: flex;
   justify-content: center;
@@ -33,4 +19,18 @@ section {
 
 .flex-column {
   flex-direction: column;
+}
+
+.flex-orientation-switch {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+@media screen and (orientation: portrait) {
+  .flex-orientation-switch {
+    flex-direction: column;
+    align-items: center;
+  }
 }
