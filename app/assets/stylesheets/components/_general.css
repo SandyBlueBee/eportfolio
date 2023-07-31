@@ -20,17 +20,3 @@ section {
 .flex-column {
   flex-direction: column;
 }
-
-.flex-orientation-switch {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 20px;
-}
-
-@media screen and (orientation: portrait) {
-  .flex-orientation-switch {
-    flex-direction: column;
-    align-items: center;
-  }
-}

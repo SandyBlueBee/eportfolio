@@ -1,14 +1,87 @@
+.past-experience-section {
+  max-width: 80vw;
+  max-height: 60vh;
+}
+
+.flex-orientation-switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* --------------------------------------------------------------- */
+/* Map side */
+
+.map {
+  /* shape and size */
+  height: fit-content;
+  width: 60%;
+  max-width: 650px;
+  border-radius: 10px 0px 0px 10px;
+  background-size: 100% 100%;
+  /* position for children */
+  position: relative;
+}
+
+.world-map {
+  /* size */
+  width: 100%;
+  filter:drop-shadow(5px 5px 10px var(--light-color)) invert(0%) brightness(105%);
+  /* filter:drop-shadow(5px 5px 5px red) invert(77%) sepia(12%) saturate(489%) hue-rotate(334deg) brightness(82%) contrast(85%); */
+}
+
+.pin {
+  /* size & position of self */
+  height: 20px;
+  position: absolute;
+}
+
+.pin-usa {
+  /* position of self on map */
+  top: calc(40% - 10px);
+  left: calc(29.2% - 7px);
+}
+
+.pin-france {
+  /* position of self on map */
+  top: calc(38.5% - 10px);
+  left: calc(49.2% - 7px);
+}
+
+.pin-germany {
+  /* position of self on map */
+  top: calc(35% - 10px);
+  left: calc(51% - 7px);
+}
+
+.pin-russia {
+  /* position of self on map */
+  top: calc(30.5% - 10px);
+  left: calc(55.5% - 7px);
+}
+
+.pin-greece {
+  /* position of self on map */
+  top: calc(42% - 10px);
+  left: calc(54% - 7px);
+}
+
+/* --------------------------------------------------------------- */
+/* Map content side */
+
 .map-content {
-  width: 40vw;
-  height: 40vh;
+  /* size */
+  width: 40%;
+  height: 60vh;
   min-height: 350px;
 }
 
 .city-name {
   /* shape and size */
+  border-radius: 10px 10px 0px 0px;
   padding: 10px 20px;
   margin-bottom: 10px;
-  border-radius: 10px 10px 0px 0px;
   /* colors */
   background: var(--primary-color);
   color: var(--very-light-color);
@@ -18,7 +91,7 @@
 
 .country-experience-list {
   width: 100%;
-  height: 350px;
+  height: 35vh;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -50,11 +123,25 @@
 }
 
 @media screen and (orientation: portrait) {
+  .flex-orientation-switch {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .past-experience-section {
+    max-width: 80vw;
+    max-height: none;
+  }
+
+  .map {
+    width: 100%;
+  }
   .map-content {
     height: 40vh;
     width: 80vw;
   }
   .country-experience-list {
-    height: 100%;
+    height: 30vh;
   }
 }

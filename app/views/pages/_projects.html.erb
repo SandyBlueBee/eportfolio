@@ -5,12 +5,65 @@
       <h2><%= t('myprojects.myprojects') %></h2>
     </div>
     <div class="projects">
-      <%= link_to image_tag("artvard.png", class:"project"), "https://www.artvard.me/", target:"_blank" %>
-      <%= link_to image_tag("fakebook.png", class:"project"), "https://github.com/SandyBlueBee/fakebook/", target:"_blank" %>
-      <%= link_to image_tag("galaxy-getaways.png", class:"project"), "https://github.com/SandyBlueBee/galaxy_getaways/", target:"_blank" %>
-      <%= link_to image_tag("nasa.png", class:"project"), "https://www.spaceappschallenge.org/about/", target:"_blank" %>
-      <div class="project flex" style="background-color: var(--light-color)">
-        <p>and more to come...</p>
+      <div class="project">
+        <%= image_tag("artvard.png", class:"project-img")%>
+        <div class="project-overlay">
+          <div class="project-content">
+            <h3>Artvard</h3>
+            <p><%= t("myprojects.artvardbio") %></p>
+            <h4><%= t("myprojects.team") %></h4>
+          </div>
+          <div>
+            <a href="https://www.artvard.me/" target="blank"><button class="futuristic-button"><h6 class="light-font"><%= t('myprojects.viewsite') %></h6></button></a>
+            <a href="https://github.com/SandyBlueBee/artvard" target="blank"><button class="futuristic-button"><h6 class="light-font"><%= t('myprojects.viewgithub') %></h6></button></a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <%= image_tag("fakebook.png", class:"project-img")%>
+        <div class="project-overlay">
+          <div class="project-content">
+            <h3>Fakebook</h3>
+            <p><%= t("myprojects.fakebookbio") %></p>
+            <h4><%= t("myprojects.team") %></h4>
+          </div>
+          <div>
+            <a href="https://github.com/SandyBlueBee/fakebook" target="blank"><button class="futuristic-button"><h6 class="light-font"><%= t('myprojects.viewgithub') %></h6></button></a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-img">
+          <%= image_tag("galaxy-getaways.png", class:"project") %>
+        </div>
+        <div class="project-overlay">
+          <div class="project-content">
+            <h3>Galaxy Getaways</h3>
+            <p><%= t("myprojects.ggbio") %></p>
+            <h4><%= t("myprojects.team") %></h4>
+          </div>
+          <div>
+            <a href="https://github.com/SandyBlueBee/galaxy_getaways" target="blank"><button class="futuristic-button"><h6 class="light-font"><%= t('myprojects.viewgithub') %></h6></button></a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-img">
+          <%= image_tag("nasa.png", class:"project") %>
+        </div>
+        <div class="project-overlay">
+          <div class="project-content">
+            <h3>Nasa Space App Challenge 2022</h3>
+            <p><%= t("myprojects.nasabio") %></p>
+          </div>
+          <div>
+            <a href="https://www.spaceappschallenge.org/" target="blank"><button class="futuristic-button"><h6 class="light-font"><%= t('myprojects.viewsite') %></h6></button></a>
+          </div>
+        </div>
+      </div>
+        <div class="project flex" style="background-color: var(--light-color)">
+          <p>and more to come...</p>
+        </div>
       </div>
     </div>
   </div>

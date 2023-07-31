@@ -1,0 +1,20 @@
+.futuristic-button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  position: relative;
+  top: -5px;
+  margin-top: 15px;
+  margin-right: 10px;
+  background-color: var(--dark-primary-color);
+  border: none;
+  box-shadow: 0px 5px #795F53;
+}
+
+.futuristic-button:hover {
+  background-color: var(--primary-color);
+}
+
+.futuristic-button:active {
+  box-shadow: inset 0px 0px 2px 5px #DFD3CE;
+  top: 0px;
+}
