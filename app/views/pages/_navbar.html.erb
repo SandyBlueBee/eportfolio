@@ -10,6 +10,9 @@
     <div class="button-light">
       <a href="#past-experience"><button><h6 class="light-font"><%= t('navbar.experience') %></h6></button></a>
     </div>
+    <div class="button-light">
+      <a href="#landing-space"><button><h6 class="light-font"> V </h6></button></a>
+    </div>
     <%= form_tag(url_for(locale: I18n.locale), method: :get, id: 'locale-form', class: 'form-inline') do %>
       <%= select_tag(:locale, options_for_select(I18n.available_locales.map { |l| [l, l] }, I18n.locale), onchange: 'document.getElementById("locale-form").submit();') %>
     <% end %>

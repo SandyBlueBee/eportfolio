@@ -1,6 +1,6 @@
 .past-experience-section {
   max-width: 80vw;
-  max-height: 60vh;
+  max-height: 80vh;
 }
 
 .flex-orientation-switch {
@@ -73,7 +73,6 @@
 .map-content {
   /* size */
   width: 40%;
-  height: 60vh;
   min-height: 350px;
 }
 

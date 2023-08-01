@@ -9,6 +9,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
 }
 
 .flex {
@@ -19,4 +21,11 @@ section {
 
 .flex-column {
   flex-direction: column;
+}
+
+.scroll-snap{
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow: auto;
+  scroll-behavior: smooth;
 }

@@ -2,7 +2,7 @@ footer {
   /* shape and color */
   height: 100px;
   width: 100%;
-  background-color: var(--light-color);
+  background-color: black;
   /* position self */
   position: absolute;
   bottom: 0px;
@@ -13,4 +13,8 @@ footer {
   justify-content: space-between;
   padding: 0% 30px;
   align-items: center;
+}
+
+footer p {
+  color: white;
 }
