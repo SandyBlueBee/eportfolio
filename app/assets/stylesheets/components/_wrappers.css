@@ -1,8 +1,8 @@
 /* about me */
 .about-me-wrapper {
   position: relative;
-  width: 50vw;
-  height: 60vh;
+  width: 720px;
+  height: 450px;
   margin-top: 50px;
 }
 
@@ -10,7 +10,7 @@
   position: absolute;
   left: 0px;
   bottom: 0px;
-  width: 70%;
+  width: 500px;
   padding: 30px 40px;
   background-color: var(--medium-light-color);
   border-radius: 10px;
@@ -32,25 +32,6 @@
   width: 200px;
   padding: 20px;
   border-radius: 10px;
-}
-
-.about-me-button {
-  background: linear-gradient(49deg, rgba(136,206,231,0.5) 0%, rgba(187,227,242,0.5) 66%, rgba(136,206,231,0.5) 93%);
-  color: var(--very-dark-color);
-  position: relative;
-  top: -5px;
-  height: 50px;
-  width: 50px;
-  border: none;
-  box-shadow: 0px 5px #185D77;
-  border-radius: 50%;
-  padding: 5px;
-}
-
-.about-me-button:active {
-  top: 0px;
-  box-shadow: none;
-  box-shadow: inset 0px 0px 2px 5px #BBE3F2;
 }
 
 .button-bar .button-light {

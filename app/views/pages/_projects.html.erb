@@ -1,17 +1,21 @@
-
-<section id="projects">
+<section id="projects" class="section-centered">
   <div>
     <div class="my-projects">
       <h2><%= t('myprojects.myprojects') %></h2>
     </div>
     <div class="projects">
       <div class="project">
-        <%= image_tag("artvard.png", class:"project-img")%>
+        <%= image_tag("artvard.png", class:"project")%>
         <div class="project-overlay">
           <div class="project-content">
             <h3>Artvard</h3>
             <p><%= t("myprojects.artvardbio") %></p>
             <h4><%= t("myprojects.team") %></h4>
+            <div class="teammates">
+              <%= link_to image_tag("teammates/david.jpg", class: "teammate"), "https://github.com/David-N-LwL", target:"_blank" %>
+              <%= link_to image_tag("teammates/loic.jpg", class: "teammate"), "https://github.com/loic-in-Lyon", target:"_blank" %>
+              <%= link_to image_tag("teammates/julien.jpg", class: "teammate"), "https://github.com/JudgeKa", target:"_blank" %>
+            </div>
           </div>
           <div>
             <a href="https://www.artvard.me/" target="blank"><button class="futuristic-button"><h6 class="light-font"><%= t('myprojects.viewsite') %></h6></button></a>
@@ -20,12 +24,17 @@
         </div>
       </div>
       <div class="project">
-        <%= image_tag("fakebook.png", class:"project-img")%>
+        <%= image_tag("fakebook.png", class:"project")%>
         <div class="project-overlay">
           <div class="project-content">
             <h3>Fakebook</h3>
             <p><%= t("myprojects.fakebookbio") %></p>
             <h4><%= t("myprojects.team") %></h4>
+            <div class="teammates">
+              <%= link_to image_tag("teammates/youcef.png", class: "teammate"), "https://github.com/Bakayouyou", target:"_blank" %>
+              <%= link_to image_tag("teammates/yoann.png", class: "teammate"), "https://github.com/yoann69", target:"_blank" %>
+              <%= link_to image_tag("teammates/elise.jpg", class: "teammate"), "https://github.com/E-Rx", target:"_blank" %>
+            </div>
           </div>
           <div>
             <a href="https://github.com/SandyBlueBee/fakebook" target="blank"><button class="futuristic-button"><h6 class="light-font"><%= t('myprojects.viewgithub') %></h6></button></a>
@@ -41,6 +50,11 @@
             <h3>Galaxy Getaways</h3>
             <p><%= t("myprojects.ggbio") %></p>
             <h4><%= t("myprojects.team") %></h4>
+            <div class="teammates">
+              <%= link_to image_tag("teammates/david.jpg", class: "teammate"), "https://github.com/David-N-LwL", target:"_blank" %>
+              <%= link_to image_tag("teammates/loic.jpg", class: "teammate"), "https://github.com/loic-in-Lyon", target:"_blank" %>
+              <%= link_to image_tag("teammates/julien.jpg", class: "teammate"), "https://github.com/JudgeKa", target:"_blank" %>
+            </div>
           </div>
           <div>
             <a href="https://github.com/SandyBlueBee/galaxy_getaways" target="blank"><button class="futuristic-button"><h6 class="light-font"><%= t('myprojects.viewgithub') %></h6></button></a>

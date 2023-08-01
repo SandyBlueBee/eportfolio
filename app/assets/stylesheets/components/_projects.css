@@ -62,6 +62,16 @@
   transition: transform 0.25s;
 }
 
+.teammate {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 2px 1px 5px var(--dark-color);
+}
+
+/* hovers */
+
 .project-overlay:hover  {
   opacity: 1;
 }
